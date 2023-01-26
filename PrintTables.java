@@ -8,19 +8,14 @@ public class PrintTables {
 
 		Scanner input = new Scanner(System.in);
 
-		int limit;
-
 		System.out.print("Enter table(s) limit to print: ");
-		limit = input.nextInt();
+		int limit = input.nextInt();
 		System.out.println("");
 
 		for (int b = 2; b <= limit; b++) {
-
 			System.out.println("Table number: " + b);
 			for (int c = 1; c <= 10; c++) {
-
 				System.out.println(c + " x " + b + " = " + (c * b));
-
 			}
 			System.out.println("=================");
 		}

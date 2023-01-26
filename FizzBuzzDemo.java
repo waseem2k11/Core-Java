@@ -1,5 +1,5 @@
 /*
-* Title: FizzBuzz (Core Java Logical Program)
+* Title: FizzBuzz (Java Logical Program)
 * Author: Waseem Ahmed
 * Description:
 *     Program that prints the numbers from 1 to n. But for multiples of
